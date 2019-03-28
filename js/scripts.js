@@ -16,7 +16,8 @@ $(function(){
         $('.state').text(stateInput);
         $('.zip').text(zipInput);
 
-        $('#appointment-text').show();
+        $('#appointment-text').show("slow");
+      
         event.preventDefault();
     });
 });
